@@ -43,7 +43,6 @@ public interface PatientDAO {
 	 * administration purposes. Use the void method instead
 	 * 
 	 * @param patient patient to be deleted
-	 * @see org.openmrs.api.PatientService#deletePatient(org.openmrs.Patient)
 	 * @see org.openmrs.api.PatientService#voidPatient(Patient, String)
 	 */
 	public void deletePatient(Patient patient) throws DAOException;
